@@ -5,3 +5,5 @@ Console.WriteLine("Hello, World!");
 // To run this application using the .NET CLI, follow these steps:
 
 // 1. Open a terminal or command prompt.
+
+// 2. Navigate to the directory where this file is located.
