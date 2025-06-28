@@ -9,3 +9,4 @@ Console.WriteLine("Hello, World!");
 // 1. Open a terminal or command prompt in Admin mode.
 // 3. Run the command: dotnet run 
 // This will compile and execute the application, displaying "Hello, World!" in the console.
+// If you want to run this application, you need to have the .NET SDK installed on your machine.
