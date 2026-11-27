@@ -1,12 +1,47 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+using System.Globalization;
+using System.Net.NetworkInformation;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+class Program1
+{
+    public static string RevString(string str)
+    {
+        int left = 0;
+        char[] s = str.ToCharArray();
+        int right = s.Length - 1;
 
-// You can run this application using the .NET CLI or any C# IDE and can test the application.
+        while(left < right)
+        {
+            char temp = s[left];
+            s[left]=s[right];
+            s[right]=temp;
 
-// This is a simple console application that prints "Hello, World!" to the console.
-// 2. Navigate to the directory where this file is located.
-// You can run this application using the .NET CLI or any C# IDE and can not test it directly here.
-// 1. Open a terminal or command prompt in Admin mode.
-// 3. Run the command: dotnet run 
-// This will compile and execute the application, displaying "Hello, World!" in the console.
-// If you want to run this application, you need to have the .NET SDK installed on your machine.
+            left++;
+            right--;
+        }
+        return new string(s);
+    }
+    
+    public static void Main(string[] args)
+    {
+        string s = "pwwkew";
+        int[] arr = { 2, 3, 1, 2, 4, 3 };
+        string s1 = "madan";
+
+
+        RevString(s1);
+        Console.ReadLine();
+        //0+1 =1
+        //1+1=2
+        //1+2=3
+        //2+3=5
+        //3+5=8
+        //5+8=13
+        //8+13=21
+
+        //IsPalin(s3);
+    }
+}

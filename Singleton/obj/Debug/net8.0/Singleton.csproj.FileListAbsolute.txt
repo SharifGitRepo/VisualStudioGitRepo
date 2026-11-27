@@ -1,0 +1,5 @@
+D:\For Jobs\Git And GitHub\ConsoleAppHelloWorld\Singleton\obj\Debug\net8.0\Singleton.GeneratedMSBuildEditorConfig.editorconfig
+D:\For Jobs\Git And GitHub\ConsoleAppHelloWorld\Singleton\obj\Debug\net8.0\Singleton.AssemblyInfoInputs.cache
+D:\For Jobs\Git And GitHub\ConsoleAppHelloWorld\Singleton\obj\Debug\net8.0\Singleton.AssemblyInfo.cs
+D:\For Jobs\Git And GitHub\ConsoleAppHelloWorld\Singleton\obj\Debug\net8.0\Singleton.csproj.CoreCompileInputs.cache
+D:\For Jobs\Git And GitHub\ConsoleAppHelloWorld\Singleton\obj\Debug\net8.0\Singleton.sourcelink.json
