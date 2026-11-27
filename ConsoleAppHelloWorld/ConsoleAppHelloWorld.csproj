@@ -7,4 +7,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="2SumNonSortedArray.cs" />
+    <Compile Remove="Fibbonacci-1.cs" />
+    <Compile Remove="Fibbonacci.cs" />
+    <Compile Remove="LongestNonRepeatingSunStringInAString.cs" />
+    <Compile Remove="MinimumSum.cs" />
+    <Compile Remove="RevAString.cs" />
+    <Compile Remove="ReverArray.cs" />
+    <Compile Remove="ReverseArray.cs" />
+    <Compile Remove="RevesreString.cs" />
+    <Compile Remove="RevIntArray-1.cs" />
+    <Compile Remove="TeoSumSortedArray.cs" />
+    <Compile Remove="Test.cs" />
+  </ItemGroup>
+
 </Project>
